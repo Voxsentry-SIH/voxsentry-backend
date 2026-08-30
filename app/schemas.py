@@ -14,3 +14,9 @@ class VerifyResponse(BaseModel):
     match: bool
     similarity_score: float
     message: str
+
+class VoiceprintResponse(BaseModel):
+    id: str
+    name: str
+    samples: int
+    date: str
