@@ -3,10 +3,10 @@ __pycache__/
 *.pyc
 .env
 
-models/*.h5
-!models/.gitkeep
+# models/*.h5
+# !models/.gitkeep
 
-voiceprints/*.npy
-!voiceprints/.gitkeep
+# voiceprints/*.npy
+# !voiceprints/.gitkeep
 
-dummy.wav
+# dummy.wav
